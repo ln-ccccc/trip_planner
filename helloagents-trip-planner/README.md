@@ -76,8 +76,8 @@ cd backend
 
 2. 创建虚拟环境
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+conda create -n trip python=3.10
+conda activate trip
 ```
 
 3. 安装依赖
